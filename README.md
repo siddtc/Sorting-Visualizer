@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Sorting Visualizer
+  Sorting algos like Merge Sort, Quick Sort, Bubble Sort, Selection Sort are visualized. Bars of random heights are depicted and after choosing the sorting algorithm the bars shift their positions and colors according to the Algorithm that one chooses and finally are positioned in a sorted manner.
+## Approach
+Save every step of sorting in an additional animation array, once you have access to this array perform visualization using setTimer() function.
 ## Available Scripts
 
 In the project directory, you can run:
